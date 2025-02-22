@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Works Committee Members
+       </title>
+
+    <style>
+        body {
+            background-color:lightgrey;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 10000px;
+            margin: 20px auto;
+        }
+
+        /* Title Styling */
+        .title {
+            text-align: center;
+          color: #FAF3E0;
+            background: linear-gradient(135deg, #ff9800,#2196f3);
+            padding: 10px 20px;
+            border-radius: 5px;
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+       
+
+        /* Flexbox for Equal Height */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: stretch; /* Ensures all boxes have equal height */
+        }
+
+        .column {
+            width: 48%;
+            margin-bottom: 15px;
+            display: flex;
+        }
+
+        .card-box {
+            background: white;
+            padding: 15px;
+            border-left: 5px solid #ff9800;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            flex: 1; /* Ensures equal height */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Aligns content properly */
+        }
+
+        .chairperson-box {
+            border-left: 5px solid #007bff;
+            background-color: #b6dffc;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="title">Building Works Committee Members (As On Dt. 01.10.2024)</h2>
+    <div class="row">
+        
+        <div class="column">
+            <div class="card-box chairperson-box">
+                <p><strong>Professor (Dr) Prem Lal Patel</strong></p>
+                <p><strong>Chairperson</strong></p>
+                <p>Director, IIIT Nagpur</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card-box">
+                <p><strong>Dr. Sachin V. Solanki</strong></p>
+                <p><strong>Member</strong></p>
+                <p>Joint Director, Technical Education Regional Office,
+                    DTE, Nagpur</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card-box">
+                <p><strong>	Dr. Praful Gharpure</strong></p>
+                <p><strong>Member</strong></p>
+                <p>Head (Infrastructure Planning & Development)
+                    Representative of TCS</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card-box">
+                <p><strong>	Dr. Dilip Lataye</strong></p>
+                <p><strong>Member</strong></p>
+                <p>Prof. & HOD, Civil Engg. Dept.
+                    VNIT, Nagpur</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card-box">
+                <p><strong>	Mrs. Varsha Ghushe</strong></p>
+                <p><strong>Member</strong></p>
+                <p>Executive Engineer (Civil), 
+                    Representative of Chief Engineer (Civil) PWD, Nagpur</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card-box">
+                <p><strong>	Shri R.W. Banait</strong></p>
+                <p><strong>Member</strong></p>
+                <p>Asst. Superintending Engineer (Electrical),
+                    PWD, Nagpur</p>
+            </div>
+        </div>
+       
+        <div class="column">
+            <div class="card-box">
+                <p><strong>Dr. Tausif Diwan</strong></p>
+                <p><strong>Member</strong></p>
+                <p>Associate Dean
+                    IIIT Nagpur. </p>
+            </div>
+        </div>
+        
+    
+        </div>
+        <div class="column">
+            <div class="card-box">
+                <p><strong>Shri Kailas N. Dakhale</strong></p>
+                <p><strong>Member Secretary</strong></p>
+                <p>Registrar,
+                    IIIT, Nagpur.</p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>

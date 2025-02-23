@@ -1,0 +1,37 @@
+div {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #f1f1f1;
+}
+
+/* Title Styling */
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+h1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    background-color: #fbdfb3;
+}
+
+/* Adding Bullet Points & Line Spacing */
+div::before {
+    content: "• ";
+    color: #007BFF;
+    font-weight: bold;
+}
+
+div {
+    line-height: 1.6;
+}

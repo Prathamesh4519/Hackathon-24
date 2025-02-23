@@ -1,0 +1,36 @@
+.title {
+    text-align: center;
+    color: #FAF3E0;
+    background: linear-gradient(135deg, #ff9800,#2196f3);
+
+ font-weight: bolder;
+ font-size: x-large;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 15px;
+   width: 60%;
+   margin-left: 280px;
+
+}
+.table{
+    border: 1px solid black;
+    border-collapse: collapse;
+  
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+max-width: 10000px;
+
+}
+.table td,.table th{
+    border: 1px solid black;
+
+}
+tbody tr:hover {
+    background-color: #d1e2ff; /* Light gray background on hover */
+    transition: background-color 0.3s ease;
+  }
+  .colspan{
+    font-weight: bolder;
+  }

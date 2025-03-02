@@ -60,6 +60,14 @@ body {
     font-size: 17px;
     margin-bottom: 12px;
 }
+.name_director{
+    font-weight: bolder;
+    font-size: x-large;
+    transition: transform 0.3s ease;
+}
+.name_director:hover {
+    transform: scale(1.05);
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
